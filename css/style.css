@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.day {
+    margin-bottom: 20px;
+}
+.day h2 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.lessons {
+    list-style-type: none;
+    padding: 0;
+}
+.lessons li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.lessons li:nth-child(odd) {
+    background-color: #e6f7ff;
+}
+.lessons li:nth-child(even) {
+    background-color: #ffffff;
+}
+.lessons li:first-child {
+    font-weight: bold;
+}
+.lessons li:last-child {
+    font-style: italic;
+}
+.lessons li:nth-of-type(3) {
+    color: #ff6600;
+}
+.lessons li:hover {
+    background-color: #d1e0e0;
+}
+.lessons li:active {
+    background-color: #b3cccc;
+}
+.lessons li:focus {
+    outline: 2px solid #ff6600;
+}
+.lessons li:link {
+    color: #0000ee;
+}
